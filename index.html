@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <title>HOME Simple E-Commerce</title>
+  </head>
+  <body>
+    <div class="chat fa fa-brands fa-square-whatsapp" onclick="chat()"></div>
+    <header>
+      <ul class="nav-list animate__animated animate__backInDown">
+        <li class="nav-item">
+          <a href="home.html" class="nav-link">
+            <span class="nav-icon fa fa-home"></span>
+            <span class="nav-text">HOME</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="product.html" class="nav-link">
+            <span class="nav-icon fa fa-cart-plus"></span>
+            <span class="nav-text">PRODUCT</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="category.html" class="nav-link">
+            <span class="nav-icon fa fa-list"></span>
+            <span class="nav-text">CATEGORY</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            <span class="nav-icon fa fa-contact-card"></span>
+            <span class="nav-text">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2 class="title">Product List</h2>
+        <div class="row">
+          <div class="col" onclick="buy('Baju 3Second', 100000)">
+            <img src="assets/images/product-1.jpg" />
+            <h4>Baju 3Second</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="col" onclick="buy('Sepatu Adidas', 110000)">
+            <img src="assets/images/product-2.jpg" />
+            <h4>Sepatu Adidas</h4>
+            <p>Rp. 110.000</p>
+          </div>
+          <div class="col" onclick="buy('Celana Hitam', 120000)">
+            <img src="assets/images/product-3.jpg" />
+            <h4>Celana Hitam</h4>
+            <p>Rp. 120.000</p>
+          </div>
+          <div class="col" onclick="buy('Baju Kerah Puma', 130000)">
+            <img src="assets/images/product-4.jpg" />
+            <h4>Baju Kerah Puma</h4>
+            <p>Rp. 130.000</p>
+          </div>
+          <div class="col" onclick="buy('Sepatu Basket', 640000)">
+            <img src="assets/images/product-5.jpg" />
+            <h4>Sepatu Basket</h4>
+            <p>Rp. 640.000</p>
+          </div>
+          <div class="col" onclick="buy('Kaos Puma', 150000)">
+            <img src="assets/images/product-6.jpg" />
+            <h4>Kaos Puma</h4>
+            <p>Rp. 150.000</p>
+          </div>
+          <div class="col" onclick="buy('Kaos Kaki', 16000)">
+            <img src="assets/images/product-7.jpg" />
+            <h4>Kaos Kaki</h4>
+            <p>Rp. 16.000</p>
+          </div>
+          <div class="col" onclick="buy('Jam Tangan A', 1700000)">
+            <img src="assets/images/product-8.jpg" />
+            <h4>Jam Tangan A</h4>
+            <p>Rp. 1.700.000</p>
+          </div>
+          <div class="col" onclick="buy('Jam Tangan B', 1800000)">
+            <img src="assets/images/product-9.jpg" />
+            <h4>Jam Tangan B</h4>
+            <p>Rp. 1.800.000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright <span id="year"></span>. SimpleSHOP</p>
+    </footer>
+
+    <script src="assets/source.js"></script>
+  </body>
+</html>
